@@ -3,6 +3,7 @@ spring:
     url: ${BASE_URL}
     username: ${USER}
     password: ${PASSWORD}
+
   jpa:
     show-sql: true
     hibernate:
