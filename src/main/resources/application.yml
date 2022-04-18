@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: ${BASE_URL}
+    username: ${USER}
+    password: ${PASSWORD}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace
