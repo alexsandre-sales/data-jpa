@@ -14,6 +14,7 @@ Testando algumas anotações de validação
 - Spring Validation
 - PostgreSQL
 - Lombok
+- Swagger
 
 ### 📋 Anotações usadas
 
